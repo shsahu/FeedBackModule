@@ -1,0 +1,41 @@
+2018-05-11-13:53:39 starting at 1526061019 with interval of 200
+2018-05-11-13:53:39 collectData 4
+2018-05-11-13:53:42 inside check 0
+2018-05-11-13:53:42 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-15:42:54 starting at 1526067574 with interval of 200
+2018-05-11-15:42:54 collectData 4
+2018-05-11-15:48:47 inside check 0
+2018-05-11-15:48:47 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-15:48:52 starting at 1526067932 with interval of 200
+2018-05-11-15:48:52 collectData 4
+2018-05-11-15:48:54 inside check 0
+2018-05-11-15:48:54 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-15:49:50 starting at 1526068170 with interval of 20
+2018-05-11-15:49:50 collectData 4
+2018-05-11-15:49:52 inside check 0
+2018-05-11-15:50:12 collectData 4
+2018-05-11-15:50:14 inside check 1
+2018-05-11-15:51:10 starting at 1526068070 with interval of 200
+2018-05-11-15:51:10 collectData 4
+2018-05-11-15:51:12 inside check 0
+2018-05-11-15:51:12 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-15:51:27 starting at 1526068087 with interval of 200
+2018-05-11-15:51:27 collectData 4
+2018-05-11-15:51:29 inside check 0
+2018-05-11-15:53:18 starting at 1526068198 with interval of 200
+2018-05-11-15:53:18 collectData 4
+2018-05-11-15:53:20 inside check 0
+2018-05-11-15:53:20 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-15:56:40 collectData 4
+2018-05-11-15:56:42 inside check 0
+2018-05-11-15:56:42 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-16:00:12 starting at 1526068612 with interval of 200
+2018-05-11-16:00:12 collectData from 4 servers
+2018-05-11-16:00:14 inside check 0
+2018-05-11-16:00:14 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-16:03:34 collectData from 4 servers
+2018-05-11-16:03:36 inside check 0
+2018-05-11-16:03:36 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
+2018-05-11-16:06:56 collectData from 4 servers
+2018-05-11-16:06:58 inside check 0
+2018-05-11-16:06:58 CPU usage is above Threshold value 0, from last 0 times; recalculating parameter values
