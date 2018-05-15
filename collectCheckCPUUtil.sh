@@ -16,7 +16,7 @@ log(){
 
 
 collectData(){
-    log collectData from ${SERVER_COUNT} servers
+    log collecting CPU logs from ${SERVER_COUNT} servers
     for (( i=0; i<${SERVER_COUNT}; i++ ))
     do
        ssh ahmad@compute${SERVERS_IDS[$i]} "${COLLECT_SCRIPT} ${start_time} ${end_time} ${OUTPUT_FILE}"
@@ -28,10 +28,10 @@ collectData(){
 check()
 {
     collectData
-    log inside check $BREACH_COUNT
+    #log inside check $BREACH_COUNT
     result=$(python checkCPUUtil.py ${SERVER_COUNT})
      
-    #echo $result $THRESHOLD
+    log "current standard deviation: "$result
     compare_result=$(echo "$result<$THRESHOLD" | bc)
     #echo $compare_result
     if [ $compare_result -gt 0 ]; then
@@ -51,7 +51,7 @@ start_time=$(date +%s)
 step_size=$1
 start_time=$((start_time-step_size))
 end_time=$(date +%s)
-log "starting at " $start_time " with interval of " $step_size
+log "starting check  with interval of " $step_size "secs; setting Threshold as " $THRESHOLD " and  minimum breach count as " $MIN_BREACH
 while [ 1 ]
 do
            end_time=$(date +%s)
